@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <title>Calculator - Task-2</title>
+    <link href="./Calculator - My ASP.NET Web Page_files/jquery.ui.all.css" rel="stylesheet" type="text/css">
+    <link href="./Calculator - My ASP.NET Web Page_files/Style.css" rel="stylesheet" type="text/css">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <div class="float-left">
+                </div>
+                <div class="float-right">
+                </div>
+            </div>
+    </header>
+
+    <div id="body">
+        <section class="content-wrapper  clear-fix">
+            <div class="Title_value">
+                <hgroup class="title">
+
+                    <h1>Calculator Using Html CSS & JS</h1>
+                    <h2> Task-2</h2>
+
+                </hgroup>
+            </div>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,inital-scale=1">
+            <div class="cal">
+                <div class="bg">
+                    <div class="display">
+                        <p id="display"></p>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="getInputValue()">C</button>
+                        <button onclick="getInputValue()">%</button>
+                        <button onclick="getInputValue()">DEL</button>
+                        <button onclick="getInputValue()">/</button><br>
+                        <button onclick="getInputValue()">7</button>
+                        <button onclick="getInputValue()">8</button>
+                        <button onclick="getInputValue()">9</button>
+                        <button onclick="getInputValue()">*</button><br>
+                        <button onclick="getInputValue()">4</button>
+                        <button onclick="getInputValue()">5</button>
+                        <button onclick="getInputValue()">6</button>
+                        <button onclick="getInputValue()">-</button><br>
+                        <button onclick="getInputValue()">1</button>
+                        <button onclick="getInputValue()">2</button>
+                        <button onclick="getInputValue()">3</button>
+                        <button onclick="getInputValue()">+</button><br>
+                        <button onclick="getInputValue()">00</button>
+                        <button onclick="getInputValue()">0</button>
+                        <button onclick="getInputValue()">.</button>
+                        <button class="equalto" onclick="getInputValue()">=</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--              // Style           -->
+            <style>
+                * {
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                .bg {
+                    border-radius: 37px;
+                    background: linear-gradient(145deg, #517cad, #6a737a);
+                    padding: 30px 30px 30px 30px;
+                    box-shadow: rgba(40, 148, 236, 0.952) 0px 5px 15px, rgba(75, 117, 255, 0.829) 0px 6px 6px;
+                }
+                
+                .buttons button {
+                    margin-right: 6px;
+                    margin-bottom: 6px;
+                    width: 70px;
+                    height: 70px;
+                    color: rgb(3, 1, 133);
+                    background-color: rgb(0, 148, 255);
+                    border-radius: 50%;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border: none;
+                    box-shadow: rgba(255, 255, 255, 0.041) 0px 10px 20px, rgba(8, 86, 255, 0.959) 0px 6px 6px;
+                    transition: 0.2s ease-in-out;
+                }
+                
+                .buttons button:hover {
+                    background-color: rgb(21, 112, 197);
+                }
+                
+                .cal {
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 8em;
+                }
+                
+                .cal span {
+                    font-size: 20px;
+                }
+                
+                .cal .display {
+                    background-color: rgb(120, 114, 131);
+                    border: 3px solid rgb(212, 194, 255);
+                    width: 96.3%;
+                    border-radius: 9px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: rgba(54, 152, 245, 0.568) 0px 5px 15px, rgba(17, 132, 185, 0.247) 0px 6px 6px;
+                    font-size: 25px;
+                    line-height: 60px;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    letter-spacing: 2px;
+                }
+                
+                .display:hover {
+                    background-color: rgb(7, 75, 153);
+                }
+            </style>
+            <script src="./Calculator - My ASP.NET Web Page_files/JavaScriptfile.js">
+            </script>
+        </section>
+        </section>
+    </div>
+    <style>
+
+    </style>
+</body>
+
+</html>
